@@ -6,6 +6,7 @@ mysql -u root -p
 CREATE USER 'asterisk'@'%' IDENTIFIED BY 'Password@123';
 CREATE DATABASE asterisk;
 GRANT ALL PRIVILEGES ON asterisk.* TO 'asterisk'@'%';
+FLUSH PRIVILEGES;
 exit
 ```
 ```shell
