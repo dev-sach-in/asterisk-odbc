@@ -3,7 +3,7 @@
 mysql -u root -p
 ```
 ```sql
-CREATE USER 'asterisk'@'%' IDENTIFIED BY 'Password@123';
+CREATE USER 'asterisk'@'%' IDENTIFIED BY 'Password#123';
 CREATE DATABASE asterisk;
 GRANT ALL PRIVILEGES ON asterisk.* TO 'asterisk'@'%';
 FLUSH PRIVILEGES;
@@ -61,7 +61,7 @@ Description = MySQL connection to 'asterisk' database
 Driver = MySQL
 Database = asterisk
 User = root
-Password = Password@123
+Password = Password#123
 Server = localhost
 Port = 3306
 Socket = /var/lib/mysql/mysql.sock
@@ -77,7 +77,7 @@ Description = MySQL ODBC 8.0 ANSI Driver
 Driver = MySQL ODBC 8.0 ANSI Driver
 Database = asterisk
 User = root
-Password = Password@123
+Password = Password#123
 Server = localhost
 Port = 3306
 Socket = /var/lib/mysql/mysql.sock
