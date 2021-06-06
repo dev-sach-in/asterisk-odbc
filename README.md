@@ -10,7 +10,7 @@ FLUSH PRIVILEGES;
 exit
 ```
 ```shell
-mysql -u asterisk -p asterisk
+mysql -u asterisk -p
 exit
 ```
 
