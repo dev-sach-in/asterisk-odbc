@@ -151,8 +151,8 @@ localhost*CLI> cdr show status
 >   Mode:                       Simple\
 >   Log unanswered calls:       Yes\
 >   Log congestion:             Yes\
-> \
-> * Registered Backends\
+> 
+> \* Registered Backends\
 >   -------------------\
 >    Adaptive ODBC\
 >    cdr_manager (suspended)\
