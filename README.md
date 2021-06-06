@@ -29,7 +29,7 @@ mysql -p
 ```
 
 ```sql
-CREATE DATABASE asterisk;
+USE asterisk;
 
 CREATE TABLE cdr ( 
         calldate TIMESTAMP NOT NULL default CURRENT_TIMESTAMP, 
